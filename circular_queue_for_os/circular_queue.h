@@ -25,3 +25,5 @@ bool circular_queue_peek_head(const circular_queue_t *queue, void *value);
 bool circular_queue_peek_tail(const circular_queue_t *queue, void *value);
 void circular_queue_clear(circular_queue_t *queue);
 void circular_queue_destroy(circular_queue_t **queue);
+
+#endif // __CIRCULAR_QUEUE_H__
